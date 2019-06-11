@@ -1,0 +1,289 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+/*头部*/
+.header-1{
+	width: 100%;
+	height: 30px;
+	background-color: #f4f4f4;
+}
+.header{
+	width: 1200px;
+	height: 30px;
+	margin: 0px auto;
+	position: relative;
+}
+.header p{
+	font-size: 13px;
+	font-family: "Microsoft YaHei";
+  	color: rgb(51, 51, 51);
+  	line-height: 30px;
+}
+.header-left{
+	position: absolute;
+	left: 0px;
+}
+.header-right{
+	position: absolute;
+	right: 0px;
+}
+/*导航*/
+.nav-1{
+	width: 100%;
+	height: 157px;
+	background-color: #fff;
+	border-bottom: 2px solid #e00304;
+}
+.nav{
+	width: 1400px;
+	height: 157px;
+	margin: 0px auto;
+	position: relative;
+}
+.nav-top{
+	width: 1400px;
+	height: 122px;
+	position: absolute;
+}
+.img1{
+	position: absolute;
+	top: 15px;
+	left: 0px;
+}
+.f1{
+	width: 500px;
+	height: 40px;
+	border: 2px solid #f83838;
+	position: absolute;
+	left: 382px;
+	top: 40px;
+}
+.f1-left{
+	text-indent: 20px;
+	width: 405px; 
+	height:36px;
+	color: #cacaca;
+}
+.f1-right{
+	width: 95px; 
+	height: 40px; 
+	background-color: #f83838; 
+	color:#fff;
+	border: 0px;
+	margin-left: -9px;
+}
+.f2{
+	width: 150px;
+	height: 37px;
+	background-color: #f5f5f5;
+	text-align: center;
+	line-height: 37px;
+	position: absolute;
+	left: 1045px;
+	top: 40px;
+}
+.f2 span{
+	color: #f25f5f;
+}
+.f2 img{
+}
+.nav-bottom{
+	width: 1400px;
+	height: 35px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+.nav-bottom li{
+	display: inline-block;
+	width: 90px;
+	height: 33px;
+	text-align: center;
+	vertical-align: top;
+	margin-right: 45px;
+	border-radius: 5px;
+	line-height: 33px;
+}
+.nav-bottom a{
+	font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+}
+.nav-bottom li:hover{
+	background-color: rgb(253, 3, 4)
+}
+.nav-bottom li:hover>a{
+	color: #fff;
+}
+/*主体*/
+.main-1{
+	width: 100%;
+	height: 655px;
+}
+.main{
+	width: 1400px;
+	height: 655px;
+	margin: 0px auto;
+	position: relative;
+}
+.p1{
+	position: absolute;
+	top: 28px;
+}
+.main-left{
+	width: 215px;
+	height: 563px;
+	position: absolute;
+	left: 0px;
+	top: 67px;
+}
+.img0{
+	margin-top: 15px;
+}
+.img0 img{
+	margin-left: 38px;
+	width: 18px;
+	height: 16px;
+}
+.img0 a{
+	margin-left: 34px;
+}
+.ul1{
+	margin-top: 40px;
+}
+.ul1 li{
+	line-height: 3.143;
+	text-indent: 85px;
+}
+.ul1 a{
+	font-size: 14px;
+    font-family: "Microsoft YaHei";
+}
+.main a:hover{
+	color:rgb(255, 44, 24);
+}
+.main-right{
+	width: 973px;
+	height: 563px;
+	position: absolute;
+	top: 67px;
+	left: 227px;
+}
+.main-right>li{
+	float: left;
+	width: 222px;
+	height: 253px;
+	border: 1px solid #dbdbdb;
+	margin-left: 17px;
+	margin-bottom: 17px;
+	text-align: center;
+	position: relative;
+}
+li img{
+	text-align: center;
+	line-height: 253px;
+
+}
+.photo{
+	position: absolute;
+	bottom: 14px;
+	left: 60px;
+	line-height: 14px; 
+}
+.span1{
+	color: #aaaaaa;
+	line-height: 2.813;
+}
+.span2{
+	color: #333333;
+
+}
+/*页脚*/
+.end-1{
+	width: 100%;
+	height: 248px;
+	background-color: #2e2e2e;
+}
+.end{
+	width: 1200px;
+	height: 248px;
+	margin: 0px auto;
+	position: relative;
+}
+.end-top a{
+	font-family: "Microsoft YaHei";
+  	color: rgb(255, 255, 255);
+  	font-size: 14px;
+}
+.end-top{
+	width: 1400px;
+	height: 150px;
+	margin: 0px auto;
+	border-bottom: 1px solid rgb(69,69,69);
+}
+.end-top ul{
+	display: inline-block;
+	width: 200px;
+	height: 150px;
+}
+.end-top li{
+	text-align: left;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 5px;
+}
+.end-bottom a{
+	color: rgb(139, 138, 138);
+	font-size: 14px;
+	line-height: 2.571;
+}
+.end-bottom{
+    margin-top: 10px;
+    text-align:center;
+}
+.end-bottom-end{
+ 	margin-top: 10px;
+    text-align: center;
+    color: rgb(139, 138, 138);
+}
+.end-bottom-end p{
+	font-size: 14px;
+}
+.E族生活_____居家维修保养_____住宿优惠信息_____出行接送_____E族活动___ {
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  color: rgb(164, 164, 164);
+  line-height: 2.571;
+  position: absolute;
+  left: 508px;
+  top: 1045px;
+  z-index: 35;
+}
+.©_2017_2018__E族之家__版权所有，并保留所有权利。ICP备案证书号：粤ICP备1 {
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  color: rgb(164, 164, 164);
+  line-height: 2.6;
+  position: absolute;
+  left: 500px;
+  top: 1090px;
+  z-index: 36;
+}
+.精品辣椒100g {
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  color: rgb(163, 163, 163);
+  line-height: 2.8;
+  position: absolute;
+  left: 485px;
+  top: 500px;
+  z-index: 63;
+}
